@@ -1,0 +1,1 @@
+{"version":3,"file":"escapeException.js","sourceRoot":"../src","sources":["escapeException.ts"],"names":[],"mappings":"AAAA,YAAY,CAAC;;AAEb,kBAAe,OAAO,CAAC,UAAU,CAAC,CAAC,iBAAiB,CAAC,CAAC","sourcesContent":["'use strict';\n\nexport default require('error-ex')('EscapeException');\n"]}

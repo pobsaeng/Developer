@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.app.test.TokenAuthenticationServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.27 s <<< FAILURE! - in com.app.test.TokenAuthenticationServiceTest
+initializationError(com.app.test.TokenAuthenticationServiceTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

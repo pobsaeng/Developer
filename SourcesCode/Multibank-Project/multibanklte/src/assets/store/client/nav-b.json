@@ -1,0 +1,22 @@
+[
+    {
+        "text": "Home",
+        "path": "/home"
+    },
+    {
+        "text": "Cheque Management",
+        "path": "/chequemanagement"
+    },
+    {
+        "text": "Daily Process",
+        "path": "/dailyprocess"
+    },
+    {
+        "text": "Report",
+        "path": "/report"
+    },
+    {
+        "text": "Register",
+        "path": "/register"
+    }
+]

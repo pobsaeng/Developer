@@ -1,0 +1,178 @@
+.navbar-brand {
+  margin-right: 0rem;
+}
+.navbar-brand img {
+  width: 90px !important;
+  height: 130px !important;
+  margin-left: 50px;
+  position: absolute;
+  z-index: 999999;
+}
+.navbar-bg-color {
+  background-color: #3c8dbc !important;
+}
+
+.sidebar-menu {
+  margin-top: 5px;
+}
+.box-body {
+  color: black;
+}
+
+/* Management Modal Rounded Style */
+.btn.btn-bg-calendar {
+  color: #fff;
+  border: 1px solid #3a87ad !important;
+  background-color: #3a87ad !important;
+}
+.btn.btn-bg-calendar:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  border: none !important;
+  background-color: #3a87ad !important;
+  /* background-color: #00b3db; */
+  /* border-color: #285e8e; */
+}
+.box-header.with-bg-primary {
+  color: #fff;
+  height: 43px;
+  /* background-color: #2e6da4 !important;*/
+  /* background-color: #286090 !important;*/
+  /* background-color: #269abc !important; */
+  background-color: #387fa9 !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+}
+.box-header.with-bg-gray {
+  color: #fff;
+  height: 43px;
+  background-color: #a4a5ae !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+}
+.box-header.with-bg-red {
+  color: #fff;
+  height: 43px;
+  background-color: #dd4b39 !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+}
+.box-header.with-bg-info {
+  color: #fff;
+  height: 43px;
+  background-color: #f39c12 !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+}
+.box-header.with-bg-calendar {
+  color: #fff;
+  height: 43px;
+  background-color: #3a87ad !important;
+  border-top-left-radius: 3px !important;
+  border-top-right-radius: 3px !important;
+}
+.modal-content {
+  border-radius: 3px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+}
+
+/* Calendar Style*/
+.fc-view-container {
+  border-bottom: none;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  padding: 0px;
+  margin: 0px;
+}
+.fc-toolbar {
+  padding: 0px;
+  margin: 0;
+}
+.fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0.5em;
+}
+.fc-view-container {
+  color: black;
+  padding: 0px !important;
+}
+
+/* .close {
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff !important;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1.2 !important;
+} */
+
+.box {
+  border-top-color: #387fa9;
+}
+.box.box-krungsri {
+  border-top-color: #9a9a9a;
+}
+.box.box-krungsri-sky {
+  border-top-color: #00c0ef;
+}
+.box.box-krungsri-red {
+  border-top-color: #dd4b39;
+}
+.box.box-krungsri-yellow {
+  border-top-color: #f39c12;
+}
+.box.box-krungsri-green {
+  border-top-color: #00a65a;
+}
+.box.box-krungsri-info {
+  border-top-color: #ff851b;
+}
+.box.box-krungsri-calendar {
+  border-top-color: #3a87ad;
+}
+
+.control-label {
+  line-height: 1.15;
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: left !important;
+}
+
+.k-listbox-toolbar {
+  height: 200px;
+}
+
+/* Setting Kendo UI */
+@media (max-width: 767px) {
+  .form-group.k-listbox.k-listbox-toolbar-right .k-listbox-toolbar {
+  }
+}
+@media (min-width: 768px) {
+  .k-listbox.k-listbox-toolbar-right .k-listbox-toolbar {
+    margin-left: 8px;
+    margin-right: 0px;
+    width: 20px;
+  }
+}
+.k-listbox .k-list-scroller {
+  border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+
+
+}
+/* .k-listbox .k-list-scroller {
+  border-radius: 3px !important;
+  background-color: #fff;
+  border-color: rgba(0,0,0,.08);
+  color: #656565;
+  background-clip: padding-box;
+} */
+
+/* .k-list-optionlabel:hover.k-state-selected,
+.k-list .k-item.k-state-hover.k-state-selected,
+.k-list .k-item:hover.k-state-selected {
+  background-color: blue;
+} */
+

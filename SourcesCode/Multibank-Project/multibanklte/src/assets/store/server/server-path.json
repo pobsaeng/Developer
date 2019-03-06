@@ -1,0 +1,45 @@
+{
+  "server_path1": "http://10.100.60.84:8529/MultibankAPI",
+  "server_path": "http://localhost:8529",
+  "verbs": {
+    "treemenu": {
+      "findall": "/api/treemenu/findall"
+    },
+    "holiday": {
+      "holidays": "/api/holiday/holidays",
+      "add": "/api/holiday/add",
+      "delete": "/api/holiday/delete"
+    },
+    "auth": {
+      "findbyid": "/api/auth/findbyid",
+      "register": "/api/auth/signup",
+      "resetpass": "/api/auth/changepassword",
+      "login": "/api/auth/signin",
+      "currentuser": "/api/user/currentuser"
+    },
+    "user": {
+      "findall": "/api/user/findall",
+      "update": "/api/user/update",
+      "delete": "/api/user/delete"
+    },
+    "customer": {
+      "findall": "/api/customer/findall",
+      "findbyid": "/api/customer/findbyid",
+      "save": "/api/customer/save",
+      "update": "/api/customer/update",
+      "delete": "/api/customer/delete"
+    },
+    "contact": {
+      "findall": "/api/contact/findall",
+      "save": "/api/contact/save",
+      "update": "/api/contact/update",
+      "delete": "/api/contact/delete"
+    },
+    "bankcheque": {
+      "findall": "/api/bankcheque/findall",
+      "save": "/api/bankcheque/save",
+      "update": "/api/bankcheque/update",
+      "delete": "/api/bankcheque/delete"
+    }
+  }
+}
